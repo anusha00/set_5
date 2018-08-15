@@ -18,11 +18,11 @@ class Ideone
 				char ch2=str2.charAt(j);
 				if(ch1>ch2)
 				{
-					k=0;
+					k=0;break;
 				}
 				else if(ch1<ch2)
 				{
-					k=1;
+					k=1;break;
 				}
 			}
 		}
